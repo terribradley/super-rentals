@@ -1,0 +1,9 @@
+{
+  "announcements": [{
+    "title":"Today's Weather",
+    "message": "It's going to be SUNNY!"
+  },{
+    "title": "The Pool",
+    "message": "The pool is being drained this Tuesday for maintenance related issues."
+  }]
+}
