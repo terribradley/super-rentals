@@ -12,7 +12,7 @@ We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
   {{#each model.announcements as |announcement|}}
-    <li>{{announcement.title}} | {{announcement.message}}</li>
+    {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
 
