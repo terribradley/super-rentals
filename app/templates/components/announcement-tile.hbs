@@ -1,6 +1,6 @@
-{{yield}}
 
 <li>
-    {{announcement.title}} | {{announcement.message}}
-    <button {{action 'delete' announcement}}>Delete</button>
+  {{#link-to 'announcement' announcement.id}}
+    {{announcement.title}}
+    {{/link-to}}
 </li>
