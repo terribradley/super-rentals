@@ -23,5 +23,13 @@
   },{
     "title": "The Pool",
     "message": "The pool is being drained this Tuesday for maintenance related issues."
+  }],
+    "cities": [{
+    "name": "Portland",
+    "country": "USA"
+  }, {
+    "name": "Seattle",
+    "country": "USA"
   }]
+
 }
