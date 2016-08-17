@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model() {
     return Ember.RSVP.hash({
       rentals: this.store.findAll('rental'),
-      // announcements: this.store.findAll('announcement'),
+      announcements: this.store.findAll('announcement'),
       cities: this.store.findAll('city')
     });
   },
@@ -13,6 +13,11 @@ export default Ember.Route.extend({
     save3(params) {
       var newRental = this.store.createRecord('rental', params);
       newRental.save();
+      this.transitionTo('index');
+    },
+    saveCity(params) {
+      var newCity = this.store.createRecord('city', params);
+      newCity.save();
       this.transitionTo('index');
     },
     saveAnnouncement(params) {
