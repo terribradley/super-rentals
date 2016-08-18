@@ -17,6 +17,6 @@ export default Ember.Route.extend({
     destroyAnnouncement(announcement) {
       announcement.destroyRecord();
       this.transitionTo('index');
-    },
+    }
   }
 });

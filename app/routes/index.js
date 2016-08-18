@@ -24,6 +24,6 @@ export default Ember.Route.extend({
       var newAnnouncement = this.store.createRecord('announcement', params);
       newAnnouncement.save();
       this.transitionTo('index');
-    },
+    }
   }
 });
