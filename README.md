@@ -1,6 +1,10 @@
 # Super-rental
 
 This app uses ember.js framework to create a rental listing site.  Users can add, update, and delete rentals. Rentals are categorized by city using the has many model type. Users can add new cities and announcements to the app as well.
+
+I used sass to organize and style he app too.
+
+  
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
