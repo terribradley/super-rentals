@@ -1,8 +1,6 @@
 # Super-rental
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+This app uses ember.js framework to create a rental listing site.  Users can add, update, and delete rentals. Rentals are categorized by city using the has many model type. Users can add new cities and announcements to the app as well.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -50,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
